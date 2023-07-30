@@ -14,7 +14,7 @@ def check_duplicates(json_data):
     return duplicates
 
 if __name__ == "__main__":
-    file_path = 'tv_show_data.json'
+    file_path = 'movie_data.json'
 
     try:
         with open(file_path, 'r') as file:

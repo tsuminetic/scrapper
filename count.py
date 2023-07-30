@@ -14,7 +14,7 @@ def count_movies(json_file):
         print("Invalid JSON format. Please provide a valid JSON file.")
 
 if __name__ == "__main__":
-    json_file_path = "tv_show_data.json"
+    json_file_path = "movie_data.json"
     movie_count = count_movies(json_file_path)
     if movie_count is not None:
         print(f"Number of movies in the JSON file: {movie_count}")
