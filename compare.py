@@ -27,7 +27,6 @@ def remove_items_from_json(json_data, items_to_remove):
             json_data.remove(item)
 
 if __name__ == "__main__":
-    # Replace 'file1_path.json' and 'file2_path.json' with the actual paths to your JSON files
     file1_path = 'tv_show_data.json'
     file2_path = 'search_data.json'
 
@@ -44,7 +43,6 @@ if __name__ == "__main__":
 
             remove_items_from_json(json_data2, similar_items)
 
-            # Save the modified JSON data back to the second file
             try:
                 with open(file2_path, 'w') as file:
                     json.dump(json_data2, file, indent=4)

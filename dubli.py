@@ -14,7 +14,6 @@ def check_duplicates(json_data):
     return duplicates
 
 if __name__ == "__main__":
-    # Replace 'your_file_path.json' with the actual path to your JSON file
     file_path = 'tv_show_data.json'
 
     try:
